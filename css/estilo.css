@@ -1,0 +1,129 @@
+/*
+.caixa{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/*-webkit-border-radius: 10px 50px 80px 100px;
+	-moz-border-radius: 10px 50px 80px 100px;
+	border-radius: 10px 50px 80px 100px;*
+
+}
+.caixa2{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	/*-webkit-border-radius: 10px 50px 80px 100px;
+	-moz-border-radius: 10px 50px 80px 100px;
+	border-radius: 10px 50px 80px 100px;
+
+}
+
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(red, green, yellow, blue);
+
+	background: url(../imagens/camera.png);
+	background: linear-gradient(96deg, red, green, yellow, blue);
+}
+
+#caixa h1{
+	background: rgb(255,255,255, 0.5);
+}
+
+#caixa{
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 20px 20px 2px 5px black;
+}
+
+#caixa h1{
+	color: white;
+	text-shadow: 20px 20px 2px rgb(255,255,255, 0.5);
+}
+
+*/
+
+/*---Animações--
+
+/@-webkit-keyframes  animacao-caixa{/*---para funcionar no webkit--*
+	from{background: red;
+
+	}
+	to{background: yellow;
+
+	}
+}
+
+@-moz-keyframes animacao-caixa{/*---para funcionar no mozila--*
+	from{background: red;
+
+	}
+	to{background: yellow;
+
+	}
+}
+
+@keyframes animacao-caixa{
+	from{background: linear-gradient(20deg, red, green, yellow, blue);
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+
+	}
+	to{background: linear-gradient(96deg, blue, yellow, green, red);
+		border-radius: 300px;
+		top: 400px;
+		left: 220px;
+
+	}
+}
+
+	#caixa{
+
+		width: 300px;
+		height: 300px;
+		background: red;
+		position: relative;
+		/*animation-name: animacao-caixa;
+		animation-duration: 5s;
+		animation-delay: 3s;
+		animation-iteration-count: 5;
+		direction-direction: alternate;
+		-moz-animation: animacao-caixa 5s 1s 5 alternate;---para funcionar no mozila--
+		-webkit-animation: animacao-caixa 5s 1s 5 alternate; ---para funcionar no webkit--
+		animation: animacao-caixa 5s 1s 5 alternate;
+
+	}
+
+	/*---Transições--*/
+
+
+	#caixa{
+
+		width: 300px;
+		height: 300px;
+		background: url(../imagens/perfil.jpg) no-repeat;
+	}
+
+	#caixa:hover{
+
+		width: 400px;
+		background: url(../imagens/camera.png) no-repeat;
+		/*-webkit-transition: ;
+		-webkit-transition: ;
+		-o-transition:  ;
+		transition: width 3s, background 3s  ;*/
+		transition: all 3s ;
+
+	}
+
+
+
